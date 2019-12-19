@@ -1,0 +1,21 @@
+.ui.header.header_list_song {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 10px;
+
+}
+
+.description {
+  max-height: 350px;
+  overflow: auto;
+  div::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+  }
+}
+.image {
+  img {
+    width: 100%;
+
+  }
+}
